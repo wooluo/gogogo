@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71987bf3-32e3-449a-a70a-b33ac900af86" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gogogo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02var/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/helloworld.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studygo/02var/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/tools/asset-scan" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1nm4locUEwbGfh1QNSJNKdrBwVg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable.全局.GOPATH.is.expanded" value="true" />
+    <property name="configurable.模块.GOPATH.is.expanded" value="false" />
+    <property name="configurable.项目.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/hello" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build gogogo/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="gogogo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/hello/helloworld.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="gogogo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/02var/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="gogogo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/hello/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="211" y="100" width="1079" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611982962335">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="211" y="100" width="1079" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.801@0.25.1440.801" timestamp="1611982962335" />
+    <state x="346" y="161" key="EditFileWatcherDialog" timestamp="1611982871211">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="346" y="161" key="EditFileWatcherDialog/0.25.1440.801@0.25.1440.801" timestamp="1611982871211" />
+    <state width="1388" height="190" key="GridCell.Tab.0.bottom" timestamp="1611983047671">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1388" height="190" key="GridCell.Tab.0.bottom/0.25.1440.801@0.25.1440.801" timestamp="1611983047671" />
+    <state width="1388" height="190" key="GridCell.Tab.0.center" timestamp="1611983047671">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1388" height="190" key="GridCell.Tab.0.center/0.25.1440.801@0.25.1440.801" timestamp="1611983047671" />
+    <state width="1388" height="190" key="GridCell.Tab.0.left" timestamp="1611983047670">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1388" height="190" key="GridCell.Tab.0.left/0.25.1440.801@0.25.1440.801" timestamp="1611983047670" />
+    <state width="1388" height="190" key="GridCell.Tab.0.right" timestamp="1611983047671">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1388" height="190" key="GridCell.Tab.0.right/0.25.1440.801@0.25.1440.801" timestamp="1611983047671" />
+    <state width="1388" height="238" key="GridCell.Tab.1.bottom" timestamp="1611983047666">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1388" height="238" key="GridCell.Tab.1.bottom/0.25.1440.801@0.25.1440.801" timestamp="1611983047666" />
+    <state width="1388" height="238" key="GridCell.Tab.1.center" timestamp="1611983047665">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1388" height="238" key="GridCell.Tab.1.center/0.25.1440.801@0.25.1440.801" timestamp="1611983047665" />
+    <state width="1388" height="238" key="GridCell.Tab.1.left" timestamp="1611983047664">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1388" height="238" key="GridCell.Tab.1.left/0.25.1440.801@0.25.1440.801" timestamp="1611983047664" />
+    <state width="1388" height="238" key="GridCell.Tab.1.right" timestamp="1611983047665">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1388" height="238" key="GridCell.Tab.1.right/0.25.1440.801@0.25.1440.801" timestamp="1611983047665" />
+    <state x="112" y="25" key="SettingsEditor" timestamp="1611982873110">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="112" y="25" key="SettingsEditor/0.25.1440.801@0.25.1440.801" timestamp="1611982873110" />
+  </component>
+</project>
