@@ -31,12 +31,20 @@ func main() {
 	s3[0] = '红'             //双引号表示字符串，单引号表示字符
 	fmt.Println(string(s3)) //把rune切片强制转换成字符串
 
+	//
 	//双引号和单引号表示类型可不一样
 	c1 := "红" //双引号包括就是字符串类型
 	c2 := '红' //一个中文字占3个字节，一个字节占8位，3*8=24位，int32，是因为UTF-8前缀表示我是rune类型，所以24+8=32，rune(int32别名就是rune）
 	fmt.Printf("c1:%T c2:%T\n", c1, c2)
-	c3 := "H" //string
-	c4 := 'H' //int32
+	c3 := "H"       //string
+	c4 := byte('H') //这里改成byte后，类型就是uint8   byte(uint8)
 	fmt.Printf("c3:%T c4:%T\n", c3, c4)
 	fmt.Printf("%d\n", c4) //打印10进制的数值
+
+	//类型转换
+	n1 := 10 //int类型
+	var f float64
+	f = float64(n1) //强制把n转成float64类型
+	fmt.Println(f)
+	fmt.Printf("%T\n", f) //查看类型 只能整型和浮点型互转，字符串和切片能互转
 }
