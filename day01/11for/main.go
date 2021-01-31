@@ -5,9 +5,7 @@
  */
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 //for循环
 func main() {
@@ -29,7 +27,13 @@ func main() {
 	//	i++ //从5开始累加，直到小于10的整数
 	//}
 
-	for {
-		fmt.Println("123") //听说你电脑很不错， 可以跑一下试试
+	//for {
+	//	fmt.Println("123") //听说你电脑很不错， 可以跑一下试试
+	//}
+
+	//for range循环
+	s := "1"
+	for i, v := range s {
+		fmt.Printf("%d %c\n", i, v)
 	}
 }
