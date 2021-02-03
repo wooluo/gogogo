@@ -20,23 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71987bf3-32e3-449a-a70a-b33ac900af86" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gogogo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02var/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello/helloworld.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studygo/02var/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/01func/day02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/01func/func.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/02func/02func" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/02func/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dup1/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../goStudy/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/homework/tongji.go" beforeDir="false" afterPath="$PROJECT_DIR$/day01/homework/tongji.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studygo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studygo/.idea/day01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studygo/.idea/dictionaries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studygo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studygo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studygo/02var/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studygo/02var/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studygo/helloworld/hello.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="urls">
@@ -72,13 +78,16 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1nm4locUEwbGfh1QNSJNKdrBwVg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -104,11 +113,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day02/01func" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build func.go">
+    <configuration name="go build func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gogogo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/day02/func.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build gogogo/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="gogogo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -133,6 +151,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build func.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +171,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="211" y="100" width="1079" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611982962335">

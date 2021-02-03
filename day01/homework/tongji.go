@@ -8,7 +8,7 @@ package main
 import "fmt"
 
 //作业内容，统计s1字符串中的英文有多少个
-//func main() {
+//01func main() {
 //	a := 0
 //	s1 := "hhhhhello沙河小王子"
 //	for _, i := range s1 {
