@@ -39,3 +39,10 @@ nohup yak bridge --secret cisco888 2>1 &
 
 #启动远程模式
 nohup yak grpc --host 0.0.0.0 --port 8087 --secret youR-aw0some-PA5sss --tls 2>1 &
+
+#查看运行情况
+ps -ef |grep yak
+
+#查看连接证书
+yak grpc --host 0.0.0.0 --port 8087 --secret youR-aw0some-PA5sss --tls
+
