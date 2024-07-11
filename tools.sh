@@ -8,21 +8,21 @@
 #Linux vultr 6.2.0-23-generic #23-Ubuntu SMP PREEMPT_DYNAMIC Wed May 17 16:55:20 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 
 #安装afrog工具,并升级
-wget https://github.com/zan8in/afrog/releases/download/v2.5.6/afrog_2.5.6_linux_amd64.zip
-unzip afrog_2.5.6_linux_amd64.zip
+wget https://github.com/zan8in/afrog/releases/download/v3.0.8/afrog_3.0.8_linux_amd64.zip
+unzip afrog_3.0.8_linux_amd64
 chmod +x afrog
 ./afrog
 ./afrog -un
-rm afrog_2.5.6_linux_amd64.zip
+rm afrog_3.0.8_linux_amd64
 
 
 #安装nuclei工具,并升级
-wget https://github.com/projectdiscovery/nuclei/releases/download/v2.9.6/nuclei_2.9.6_linux_amd64.zip
-unzip nuclei_2.9.6_linux_amd64.zip
+wget https://github.com/projectdiscovery/nuclei/releases/download/v3.2.9/nuclei_3.2.9_linux_amd64.zip
+unzip nuclei_3.2.9_linux_amd64.zip
 chmod +x nuclei
 ./nuclei
 ./nuclei -up
-rm nuclei_2.9.6_linux_amd64.zip
+rm nuclei_3.2.9_linux_amd64.zip
 
 bash <(curl -sS -L http://oss.yaklang.io/install-latest-yak.sh)
 
