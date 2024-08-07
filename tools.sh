@@ -8,21 +8,23 @@
 #Linux vultr 6.2.0-23-generic #23-Ubuntu SMP PREEMPT_DYNAMIC Wed May 17 16:55:20 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 
 #安装afrog工具,并升级
-wget https://github.com/zan8in/afrog/releases/download/v3.0.8/afrog_3.0.8_linux_amd64.zip
-unzip afrog_3.0.8_linux_amd64
-chmod +x afrog
-./afrog
-./afrog -un
-rm afrog_3.0.8_linux_amd64
+curl -s https://api.github.com/repos/projectdiscovery/afrog/releases/latest | grep "browser_download_url.*afrog_.*_linux_amd64.zip" | cut -d : -f 2,3 | tr -d \" | wget -i -
+unzip afrog_.*_linux_amd64.zip
+mv afrog /usr/local/bin/
+chmod +x /usr/local/bin/afrog
+afrog
+afrog -un
+rm afrog_.*_linux_amd64.zip
 
 
 #安装nuclei工具,并升级
-wget https://github.com/projectdiscovery/nuclei/releases/download/v3.2.9/nuclei_3.2.9_linux_amd64.zip
-unzip nuclei_3.2.9_linux_amd64.zip
-chmod +x nuclei
-./nuclei
-./nuclei -up
-rm nuclei_3.2.9_linux_amd64.zip
+curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | grep "browser_download_url.*nuclei_.*_linux_amd64.zip" | cut -d : -f 2,3 | tr -d \" | wget -i -
+unzip nuclei_.*_linux_amd64.zip
+mv nuclei /usr/local/bin/
+chmod +x /usr/local/bin/nuclei
+nuclei
+nuclei -up
+rm nuclei_.*_linux_amd64.zip
 
 bash <(curl -sS -L http://oss.yaklang.io/install-latest-yak.sh)
 
