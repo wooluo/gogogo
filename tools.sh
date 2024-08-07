@@ -9,17 +9,15 @@
 
 
 #安装afrog工具,并升级
-wget https://github.com/zan8in/afrog/releases/download/v3.0.8/afrog_3.0.8_linux_amd64.zip
-unzip afrog_3.0.8_linux_amd64
+curl -s https://api.github.com/repos/zan8in/afrog/releases/latest | grep "browser_download_url.*afrog_.*_linux_amd64.zip" | cut -d : -f 2,3 | tr -d \" | wget -i -unzip afrog_.*_linux_amd64.zip
 chmod +x afrog
-./afrog
-./afrog -un
-rm afrog_3.0.8_linux_amd64
+afrog
+afrog -un
+rm afrog_.*_linux_amd64.zip
 
 
 #安装nuclei工具,并升级
-curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | grep "browser_download_url.*nuclei_.*_linux_amd64.zip" | cut -d : -f 2,3 | tr -d \" | wget -i -
-unzip nuclei_.*_linux_amd64.zip
+curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | grep "browser_download_url.*nuclei_.*_linux_amd64.zip" | cut -d : -f 2,3 | tr -d \" | wget -i -unzip nuclei_.*_linux_amd64.zip
 mv nuclei /usr/local/bin/
 chmod +x /usr/local/bin/nuclei
 nuclei
