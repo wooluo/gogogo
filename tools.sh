@@ -8,22 +8,6 @@
 #Linux vultr 6.2.0-23-generic #23-Ubuntu SMP PREEMPT_DYNAMIC Wed May 17 16:55:20 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 
 
-#安装afrog工具,并升级
-curl -s https://api.github.com/repos/zan8in/afrog/releases/latest | grep "browser_download_url.*afrog_.*_linux_amd64.zip" | cut -d : -f 2,3 | tr -d \" | wget -i -unzip afrog_.*_linux_amd64.zip
-chmod +x afrog
-afrog
-afrog -un
-rm afrog_.*_linux_amd64.zip
-
-
-#安装nuclei工具,并升级
-curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | grep "browser_download_url.*nuclei_.*_linux_amd64.zip" | cut -d : -f 2,3 | tr -d \" | wget -i -unzip nuclei_.*_linux_amd64.zip
-mv nuclei /usr/local/bin/
-chmod +x /usr/local/bin/nuclei
-nuclei
-nuclei -up
-rm nuclei_.*_linux_amd64.zip
-
 bash <(curl -sS -L http://oss.yaklang.io/install-latest-yak.sh)
 
 #添加防火墙端口，并重新加载生效
